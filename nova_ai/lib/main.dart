@@ -8,7 +8,6 @@ import 'package:nova_ai/logic/bloc/album/album_bloc.dart';
 import 'package:nova_ai/presentation/screens/home_screen.dart';
 
 void main() async {
-  const String imageBoxName = 'imageBox';
   WidgetsFlutterBinding.ensureInitialized();
 
   await DatabaseService.incrementLaunchCount(); // Track app opens
