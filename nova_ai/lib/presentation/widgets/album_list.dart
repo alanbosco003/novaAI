@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nova_ai/presentation/widgets/album_tile.dart';
 import '../../data/models/album_model.dart';
 import '../../data/models/image_model.dart';
 
