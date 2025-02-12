@@ -23,7 +23,7 @@ class DatabaseService {
     String path = join(await getDatabasesPath(), dbName);
     return await openDatabase(
       path,
-      version: 2, // Increment version to trigger `onUpgrade`
+      version: 2,
       onCreate: (db, version) async {
         await _createTables(db);
       },
