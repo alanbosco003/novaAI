@@ -52,6 +52,16 @@ class DatabaseService {
       FOREIGN KEY (albumId) REFERENCES albums(id)
     )
   ''');
+
+    await db.execute('''
+    CREATE TABLE $launchTable (
+      id INTEGER PRIMARY KEY,
+      count INTEGER NOT NULL
+    )
+  ''');
+
+    // Initialize launch count
+    await db.insert(launchTable, {'id': 1, 'count': 0});
   }
 
   // 📌 Save Albums
