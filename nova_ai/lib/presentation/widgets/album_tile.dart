@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:nova_ai/data/models/album_model.dart';
+import 'package:nova_ai/data/models/image_model.dart';
 
 class AlbumTile extends StatelessWidget {
   final Album album;

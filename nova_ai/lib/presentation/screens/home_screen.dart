@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:nova_ai/logic/bloc/album/album_bloc.dart';
+import 'package:nova_ai/logic/bloc/album/album_event.dart';
+import 'package:nova_ai/logic/bloc/album/album_state.dart';
+import 'package:nova_ai/presentation/widgets/album_list.dart';
+import 'package:nova_ai/presentation/widgets/error_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

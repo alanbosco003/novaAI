@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:nova_ai/logic/bloc/album/album_bloc.dart';
+import 'package:nova_ai/logic/bloc/album/album_event.dart';
 
 class ErrorView extends StatelessWidget {
   final String message;
