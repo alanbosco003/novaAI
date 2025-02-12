@@ -1,5 +1,5 @@
-import 'package:nova_ver_1/core/repository/album_repository.dart';
-import 'package:nova_ver_1/core/repository/image_repository.dart';
+import 'package:nova_ai/core/repository/album_repository.dart';
+import 'package:nova_ai/core/repository/image_repository.dart';
 
 import '../../data/models/album_model.dart';
 import '../../data/models/image_model.dart';

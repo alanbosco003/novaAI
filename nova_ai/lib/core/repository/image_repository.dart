@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 import 'package:dio/dio.dart';
-import 'package:nova_ver_1/core/database/database_service.dart';
+import 'package:nova_ai/core/database/database_service.dart';
 import '../../data/models/image_model.dart';
 import 'package:http/http.dart' as http;
 
